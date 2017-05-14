@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    padding-top: 2%;
+    border-bottom-style: solid;
+    background: black;
+    color: white;
+    text-shadow: 0 0 5px white;
+}
+
+#Container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+h3{
+    padding-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.movieItem{
+    width: 33%;
+    float: left;
+    text-align: center;
+    cursor: pointer
+}

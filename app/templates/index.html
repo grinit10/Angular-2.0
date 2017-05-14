@@ -1,0 +1,13 @@
+<h1>Welcome to my shop!</h1>
+<div id="Container">
+    <h3>We have the following movies available:</h3>
+    <div id="myMovieList">
+        <div *ngFor="#movie of movieList" (click)="onclick(movie)" class="movieItem">{{movie}}</div>
+    </div>
+    <div id="Cart">
+        <h3>Cart:</h3>
+        <ul>
+            <li *ngFor="#item of Cart">{{item}}</li>
+        </ul>
+    </div>
+</div>
